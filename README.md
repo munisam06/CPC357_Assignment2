@@ -10,13 +10,13 @@ This project demonstrates an IoT-based air quality monitoring system that integr
    Visualization: Graphical representation of air quality distribution.
 
 ### Scripts
-pubs.py
+`pubs.py
 Publishes sensor data to an MQTT broker from a dataset stored in Google Cloud Storage (GCS) where data sensor simulation takes place.
 
 subs_data.py
 Subscribes to MQTT messages, processes the data, and inserts it into BigQuery for analysis and storage.
 
 steps1_E.py
-Handles data loading from BigQuery, machine learning model training, predictions, and air quality visualization.
+Handles data loading from BigQuery, machine learning model training, predictions, and air quality visualization.`
 
 
